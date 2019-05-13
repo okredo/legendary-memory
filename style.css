@@ -1,0 +1,58 @@
+/* CSS files add styling rules to your content */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 40px auto;
+  -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(90deg, rgba(207, 237, 255, 0.933) 0%, rgb(238, 254, 255) 100%), url(https://fullstack.io/static/img/backgrounds/positive.png);
+  height: 100%;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+p a:link, p a:visited {
+  color: black;
+  background-color: #fdffc9;
+  padding: 2px 4px;
+  text-decoration: none;
+  border-bottom: 1px solid #0000002e;
+  transition: background-color 0.5s ease;
+}
+p a:hover {
+  background-color: #FFEB3B;
+  transition: background-color 0.5s ease;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded {
+  border-radius: 3px;
+}
+
+#chart {
+  background-color: white;
+  border-radius: 3px;
+  width: 425px;
+  height: 425px;
+  margin: 0 auto;
+}
+
+
+img.rounded {
+  max-width: 500px;
+}
+
+text {
+  fill: black;
+}
